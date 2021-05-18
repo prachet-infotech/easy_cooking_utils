@@ -1,0 +1,4 @@
+enum RecipeUnit {
+  Cup,
+  Servings
+}
