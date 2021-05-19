@@ -1,10 +1,10 @@
 import 'package:meta/meta.dart';
 
-import 'ingredient.dart';
+import 'recipe-ingredient.dart';
 
 class IngredientsSection {
   final String sectionTitle;
-  final List<Ingredient> ingredients;
+  final List<RecipeIngredient> ingredients;
 
   const IngredientsSection({
     this.sectionTitle,

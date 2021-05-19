@@ -1,7 +1,7 @@
 import 'package:meta/meta.dart';
 import 'enums/ingredient-unit.enum.dart';
 
-class Ingredient {
+class RecipeIngredient {
   ///Ingredient Key
   final String id;
 
@@ -14,7 +14,7 @@ class Ingredient {
   ///For internal use only
   final String comment;
 
-  const Ingredient({
+  const RecipeIngredient({
     @required this.id,
     @required this.displayName,
     @required this.quantity,

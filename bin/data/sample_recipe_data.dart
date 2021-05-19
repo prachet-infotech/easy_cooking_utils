@@ -4,7 +4,7 @@ import '../enums/ayurveda/food_nature.enum.dart';
 import '../enums/ayurveda/mode-of-nature.enum.dart';
 import '../enums/cousine.enum.dart';
 import '../enums/ingredient-unit.enum.dart';
-import '../ingredient.dart';
+import '../recipe-ingredient.dart';
 import '../ingredients-section.dart';
 import '../recipe-edibility-in-seasons.dart';
 import '../recipe.dart';
@@ -21,12 +21,12 @@ Recipe khichri = Recipe(
   ingredientSections: [
     IngredientsSection(
       ingredients: [
-        Ingredient(
+        RecipeIngredient(
             id: "makhane",
             displayName: "Makhane",
             quantity: 50,
             ingredientUnit: IngredientUnit.grams),
-        Ingredient(
+        RecipeIngredient(
             id: "ghee",
             displayName: "Ghee",
             quantity: 150,
@@ -36,17 +36,17 @@ Recipe khichri = Recipe(
     IngredientsSection(
       sectionTitle: "Sugar Syrup",
       ingredients: [
-        Ingredient(
+        RecipeIngredient(
             id: "sugar",
             displayName: "Sugar",
             quantity: 250,
             ingredientUnit: IngredientUnit.grams),
-        Ingredient(
+        RecipeIngredient(
             id: "milk",
             displayName: "Milk",
             quantity: 1,
             ingredientUnit: IngredientUnit.TBSP),
-        Ingredient(
+        RecipeIngredient(
             id: "water",
             displayName: "Water",
             quantity: .75,
