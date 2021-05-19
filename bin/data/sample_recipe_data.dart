@@ -13,53 +13,53 @@ import '../recipe_unit.enum.dart';
 import '../steps-section.dart';
 
 Recipe khichri = Recipe(
-  recipeId: "1",
-  title: "Makhana pag",
-  description: "Makhana pag",
-  youtubeUrl: "https://youtu.be/1oGyrt62bi0",
+  recipeId: '1',
+  title: 'Makhana pag',
+  description: 'Makhana pag',
+  youtubeUrl: 'https://youtu.be/1oGyrt62bi0',
   imageUrl: null,
   ingredientSections: [
     IngredientsSection(
       ingredients: [
         RecipeIngredient(
-            id: "makhane",
-            displayName: "Makhane",
+            id: 'makhane',
+            displayName: 'Makhane',
             quantity: 50,
             ingredientUnit: IngredientUnit.grams),
         RecipeIngredient(
-            id: "ghee",
-            displayName: "Ghee",
+            id: 'ghee',
+            displayName: 'Ghee',
             quantity: 150,
             ingredientUnit: IngredientUnit.grams)
       ],
     ),
     IngredientsSection(
-      sectionTitle: "Sugar Syrup",
+      sectionTitle: 'Sugar Syrup',
       ingredients: [
         RecipeIngredient(
-            id: "sugar",
-            displayName: "Sugar",
+            id: 'sugar',
+            displayName: 'Sugar',
             quantity: 250,
             ingredientUnit: IngredientUnit.grams),
         RecipeIngredient(
-            id: "milk",
-            displayName: "Milk",
+            id: 'milk',
+            displayName: 'Milk',
             quantity: 1,
             ingredientUnit: IngredientUnit.TBSP),
         RecipeIngredient(
-            id: "water",
-            displayName: "Water",
+            id: 'water',
+            displayName: 'Water',
             quantity: .75,
             ingredientUnit: IngredientUnit.liter),
       ],
     ),
   ],
   stepSections: [
-    StepsSection(steps: ["Roast _makhana in _ghee"]),
-    StepsSection(sectionTitle: "Prepare Chashni", steps: [
-      "boil _water",
-      "add _sugar",
-      "test on weather the item is ready",
+    StepsSection(steps: ['Roast _makhana in _ghee']),
+    StepsSection(sectionTitle: 'Prepare Chashni', steps: [
+      'boil _water',
+      'add _sugar',
+      'test on weather the item is ready',
     ])
   ],
   baseRecipe: 3,
