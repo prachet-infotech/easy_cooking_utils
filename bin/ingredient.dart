@@ -1,16 +1,26 @@
-
-
-import 'ingredient.enum.dart';
+import 'package:meta/meta.dart';
+import 'enums/ingredient-unit.enum.dart';
 
 class Ingredient {
   ///Ingredient Key
-  String id;
+  final String id;
 
-  String displayName;
-  double quantity;
-  IngredientUnit ingredientUnit;
-  String adjective;
+  final String displayName;
+  final double quantity;
+  final double adjustedQuantity;
+  final IngredientUnit ingredientUnit;
+  final String adjective;
 
   ///For internal use only
-  String comment;
+  final String comment;
+
+  const Ingredient({
+    @required this.id,
+    @required this.displayName,
+    @required this.quantity,
+    this.adjustedQuantity,
+    @required this.ingredientUnit,
+    this.adjective,
+    this.comment,
+  });
 }

@@ -1,4 +1,6 @@
 enum Cousine {
+  All,
+  India,
   NorthIndian,
   Maharashtrian,
   Gujrati,

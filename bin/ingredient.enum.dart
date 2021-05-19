@@ -1,4 +1,0 @@
-enum IngredientUnit {
-  kg,
-  pound,
-}
