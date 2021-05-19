@@ -6,6 +6,7 @@ import 'enums/ayurveda/digestibility.enum.dart';
 import 'enums/ayurveda/food_nature.enum.dart';
 import 'enums/ayurveda/mode-of-nature.enum.dart';
 import 'ingredient.dart';
+import 'ingredients-section.dart';
 import 'recipe-edibility-in-seasons.dart';
 import 'recipe_complexity.enum.dart';
 import 'recipe_unit.enum.dart';
@@ -21,8 +22,8 @@ class Recipe {
   final String youtubeUrl;
   final String imageUrl;
 
-  final List<Ingredient> ingredients;
-  final List<StepsSection> steps;
+  final List<IngredientsSection> ingredientSections;
+  final List<StepsSection> stepSections;
 
   final double baseRecipe;
   final RecipeUnit recipeUnit;
@@ -54,8 +55,8 @@ class Recipe {
     @required this.description,
     @required this.youtubeUrl,
     @required this.imageUrl,
-    @required this.ingredients,
-    @required this.steps,
+    @required this.ingredientSections,
+    @required this.stepSections,
     @required this.baseRecipe,
     @required this.recipeUnit,
     @required this.tasteRating,
