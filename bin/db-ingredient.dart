@@ -29,9 +29,9 @@ class DbIngredient {
     if (json == null) {
       return null;
     }
-    return DbIngredient(
-      firebaseUid: json['firebaseUid'],
-      timestamp: DateTime.parse(json['timestamp']),
-    );
+    // return DbIngredient(
+    //   firebaseUid: json['firebaseUid'],
+    //   timestamp: DateTime.parse(json['timestamp']),
+    // );
   }
 }
